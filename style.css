@@ -1,0 +1,247 @@
+a{color: #666 !important;}
+a:hover{color: #1975D0 !important;}
+.news-letter{background-color: #EDF2FF;padding-top: 60px;padding-bottom: 60px;}
+.news-letter h2{font-size: 22px;}
+.news-letter p{color: #666;}
+.news-letter-text{width: 400px !important ;height: 50px !important;}
+.news-letter-button{width: 100px !important; height: 50px !important;}
+.menu-ul{
+    /* border: solid; */
+    width: 50% !important;
+    margin: auto;
+}
+.menu-ul li{
+    padding-left: 20px; padding-right: 20px; justify-content: center !important;
+}
+.menu-button{
+    width: 200px; padding-top: 10px; padding-bottom: 10px; color: #fff; background-color: #1975D0;
+}
+.main-menu nav{
+    background-color: #fff !important;
+}
+.menu-button:hover{
+    background-color: #000; color: #fff;
+}
+.slider{
+    background-color: #F1F5F8;
+}
+.slider-bg{
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+}
+.slider-bg:nth-child(1){
+    background-image: url(images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-bg:nth-child(2){
+    background-image: url(images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-bg:nth-child(3){
+    background-image: url(images/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-content{padding-left: 5%;}
+.contact-now{width: 120px; padding-top: 10px; padding-bottom: 10px; color: #fff;background-color: #000 !important;}
+.contact-now:hover{background-color: #1975D0 !important;}
+.medical-news-parent{padding-top: 100px; padding-bottom: 0px;}
+.medical-news{width: 35%;}
+.medical-news h2{font-weight: bold;}
+.medical-news p{color: #666;}
+.list-items li::before{content: "\f0da"; font-family: FontAwesome; display: inline-block;
+background-color: #1975D0;color: #fff;width: 26px; height: 26px; border-radius: 13px;
+text-align: center;}
+.list-items li a{display: inline-block;}
+.video-bg img{height: 370px !important;}
+.form-appointment .form-control{height: 50px; color: #666;}
+.form-appointment .row{padding-top: 10px; padding-bottom: 10px;}
+.form-appointment textarea{height: 300px !important; }
+.improve-health h4{color: #666;}
+.improve-health h4:hover{color: #1975D0;cursor: pointer;}
+.improve-health i{color: #1975D0;}
+.emergency-medical{
+    border: solid;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url(images/call-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+    position: relative;
+}
+.emergency-medical-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(51,132,208,0.5);
+    color: #fff !important;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    padding-top: 120px;
+}
+.emergency-medical-layer p{
+    color: #fff !important;
+}
+.our-hospital figure img{
+    width: 100%!important;
+}
+.our-hospital-layer{
+    width: calc(100% - 12px);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(51,132,208,0.5);
+    display: none;
+    text-align: center;
+}
+.our-hospital figure{
+    position: relative;
+}
+.our-hospital figure:hover .our-hospital-layer{
+    display: block;
+}
+.best-treatment-card li{
+    border: none;
+    width: 100%;
+}
+.best-treatment-card button{
+    width: 100%;
+}
+.best-treatment-card i{
+    font-size: 70px;
+}
+.best-treatment-card .card-body{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.best-treatment-card li::after{
+    content: "\f0da";
+    font-family: FontAwesome;
+    display: inline-block;
+    background-color: #1975D0;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    text-align: center;
+    float: right;
+    font-size: 12px;
+}
+.best-treatment-card .per-visit span{
+    color: #1975D0; font-size: 40px;
+}
+.best-treatment-card ul{
+    border: 0 !important;
+}
+.card-container .row{
+    justify-content: center;
+}
+footer{
+    background-color: #1769BA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.about-us h2,.quick-links h2,.open-hours h2,.news-letter-footer h2{
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    width: 120px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.about-us p{
+    width: 100%;
+}
+.about-us p span{
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    padding-top: 5px;
+    display: inline-block;
+}
+.quick-links li a,.open-hours a{
+    color: #fff !important;
+    padding-left: 0;
+}
+.quick-links li a::before{
+    color: #fff !important;
+    padding-left: 0;
+    content: "\f0da"; font-family: FontAwesome;display: inline-block;color: #fff;width: 26px;height: 26px;
+}
+.best-treatment-card {
+    padding-bottom: 60px;
+}
+.copyright-content{
+    background-color: #1d62a7;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 0px !important;
+
+
+
+}
+.copyright-content a{
+    color: #fff !important;
+}
+@media only screen and (max-width:600px){
+    .center-content{justify-content: center !important;}
+    .news-letter{text-align: center;}
+    .news-letter-button,.news-letter-text{width: 100% !important;}
+    .menu-ul{
+        width: 100% !important;
+    }
+    .menu-button{display: none;}
+    .slider-bg:nth-child(1),.slider-bg:nth-child(2),.slider-bg:nth-child(3){
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .slider-bg{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .slider-content h1{font-size: 25px; padding-bottom: 10px;}
+    .slider-content p{font-size: 14px;}
+    .contact-now{display: none;}
+    .medical-news{width: 100%;}
+    .video-bg img{height: auto !important;}
+    .video-bg{padding-top: 20px; padding-bottom: 20px;}
+    .health-service-content{padding-left: 20px;}
+    .form-appointment button{display: block !important;}
+    .form-appointment .row .col-xl-6{margin-bottom: 20px;}
+    .improve-health{padding-left: 3%;}
+    .emergency-medical button{display: inline-block;margin: 10px;}
+    .emergency-medical{
+        background-size:cover
+    }
+    .our-hospital{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .best-treatment-card {
+        width: 80%;
+        margin-bottom: 10px;
+    
+    }
+    .best-treatment-card .menu-button{
+        display: block;
+    }
+    .about-us,.quick-links,.open-hours,.news-letter-footer{
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    
+
+
+}
